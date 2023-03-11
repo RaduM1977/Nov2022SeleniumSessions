@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Regression Suite" verbose="4" thread-count="3" parallel="tests">
+
+	<listeners>
+	
+		<listener class-name=""></listener>
+	
+	
+	</listeners>
+
+
+	<test name="Google Test">
+
+		<classes>
+			<class name="testNgSessions.GoogleTest" />
+		</classes>
+	</test>
+
+
+
+	<test name="Amazon Test">
+
+		<classes>
+			<class name="testNgSessions.AmazonTest" />
+		</classes>
+	</test>
+
+
+
+	<test name="OpenCart Test">
+
+		<classes>
+			<class name="testNgSessions.OpenCartTest" />
+		</classes>
+	</test>
+
+
+
+
+</suite>
